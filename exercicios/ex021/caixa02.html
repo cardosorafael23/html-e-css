@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(230, 165, 85);
+            margin: 0;
+        }
+        header {
+            color: white;
+            background-color: blueviolet;
+            padding: 10px;
+            margin-bottom: 50px;
+        }
+        nav {
+            box-shadow: 1px 6px 6px 0px rgba(0, 0, 0, 0.12);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            margin-right: 10px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: #fff;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 50px 17px;
+            box-shadow: 7px 7px 5px 0px rgba(0, 0, 0, 0.169);
+        }
+
+        article > aside {
+            background-color: rgb(76, 175, 52);
+            padding: 5px;
+            color: white;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            padding: 4px;
+            text-align: center;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        div#bola {
+            background-color: #fff;
+            width: 200px;
+            height: 200px;
+            margin: 20px 0 0 20px;
+            border-radius: 50%;
+        }
+    
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cabeçalho da página</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="Assuntos">
+            <article>
+                <h2>Assuntos diários</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum porro vel quasi, provident esse consectetur labore. Facilis, perspiciatis consequuntur facere magni, eum rem hic eligendi eos illum mollitia similique laborum!</p>
+            </article>
+        </section>
+        <section id="Notícias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti suscipit, obcaecati ipsa magni asperiores ad dolorum in illo consequatur vitae soluta facere iusto dignissimos commodi. Necessitatibus totam sapiente ipsum et!</p>
+                <aside>
+                    <p>Artigo escrito por José Maria</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Rafael Cardoso</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
+
