@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eso de iframes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        iframe#tela {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi in eius necessitatibus. Voluptatibus maiores distinctio odio reiciendis, sunt rerum modi quasi rem enim ab iure esse neque quisquam harum voluptate!</p>
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira página</a></li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore quo, quidem ullam fuga non tempora rerum inventore adipisci ratione id, ducimus dicta a assumenda? Vitae unde amet voluptatem dignissimos perferendis! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima illum, minus praesentium ad eius delectus suscipit eligendi omnis expedita at quod laudantium, iusto quia illo nesciunt explicabo provident possimus atque?</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima</h1></p>"> 
+        <p>Infelizmente seu navegador não é compatível com isso.</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore quo, quidem ullam fuga non tempora rerum inventore adipisci ratione id, ducimus dicta a assumenda? Vitae unde amet voluptatem dignissimos perferendis! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima illum, minus praesentium ad eius delectus suscipit eligendi omnis expedita at quod laudantium, iusto quia illo nesciunt explicabo provident possimus atque?</p>
+</body>
+</html>
